@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EuroTrivia</string>
+    <string name="quiz_button">Flag Quiz</string>
+    <string name="facts_button">Fun Facts</string>
+
+    <string name="france_fact">France is the world\'s most popular tourist destination.</string>
+    <string name="greece_fact">80% of Greece is made up of mountains.</string>
+    <string name="spain_fact">Spain was the world\'s first global empire.</string>
+    <string name="turkey_fact">Istanbul is on two continents.</string>
+    <string name="uk_fact">The United Kingdom is slightly smaller than the state of Oregon</string>
+
+
+</resources>
