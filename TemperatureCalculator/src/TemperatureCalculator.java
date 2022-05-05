@@ -8,7 +8,7 @@ public class TemperatureCalculator {
 
         String scale = scanner.nextLine();
 
-        System.out.println("Please enter the temperature in numbers (ex. 45.1): ");
+        System.out.println("Please enter the temperature in digits: ");
 
         double temperature = scanner.nextDouble();
 
