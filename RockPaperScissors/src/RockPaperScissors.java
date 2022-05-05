@@ -19,7 +19,8 @@ public class RockPaperScissors {
 
         //conditions for cpu playing rock
         if (randomTurn == 0){ //this means the cpu will return rock
-            System.out.println("The computer played: " + turnsArray[randomTurn]);
+
+            System.out.println("The computer played: "+turnsArray[randomTurn]);
 
             if (userTurn.equalsIgnoreCase("rock")){
                 System.out.println("It's a draw!");
@@ -42,10 +43,17 @@ public class RockPaperScissors {
 
             }
 
+            else {
+
+                System.out.println("Invalid input");
+            }
+
+
         }
 
         //conditions for cpu playing paper
         else if(randomTurn == 1){// this means the cpu will return paper
+
             System.out.println("The computer played: "+turnsArray[randomTurn]);
 
             if (userTurn.equalsIgnoreCase("rock")){
@@ -53,7 +61,6 @@ public class RockPaperScissors {
                 scanner.close();
                 System.out.println("Goodbye!");
 
-
             }
 
             else if (userTurn.equalsIgnoreCase("paper")){
@@ -70,11 +77,17 @@ public class RockPaperScissors {
 
             }
 
+            else {
+
+                System.out.println("Invalid input");
+            }
+
         }
 
         //conditions for cpu playing scissors
-        else { //this means the cpu will return scissors
-            System.out.println("The computer played: " + turnsArray[randomTurn]);
+        else if(randomTurn == 2) { //this means the cpu will return scissors
+
+            System.out.println("The computer played: "+turnsArray[randomTurn]);
 
             if (userTurn.equalsIgnoreCase("rock")){
                 System.out.println("You lose!");
@@ -94,6 +107,11 @@ public class RockPaperScissors {
                 System.out.println("It's a draw!");
                 scanner.close();
                 System.out.println("Goodbye!");
+            }
+
+            else {
+
+                System.out.println("Invalid input");
             }
 
 
